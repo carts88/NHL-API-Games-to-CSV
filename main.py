@@ -9,7 +9,7 @@ PLAN: Access base NHL player API https://api-web.nhle.com/v1/player/{player_id},
 
 base_api = "https://api-web.nhle.com/v1"
 
-team_codes = ['ANA', 'ARI']
+team_codes = ['ANA', 'ARI', 'BOS'] # continue with rest of NHL
 
 skater_column_headers = [
     'game_id',
