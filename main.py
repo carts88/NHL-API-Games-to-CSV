@@ -8,8 +8,7 @@ PLAN: Access base NHL player API https://api-web.nhle.com/v1/player/{player_id},
 """
 
 base_api = "https://api-web.nhle.com/v1"
-
-team_codes = ['ANA', 'ARI', 'BOS'] # continue with rest of NHL
+team_codes = ['ANA', 'ARI', 'BOS', 'BUF', 'CGY', 'CHI', 'COL', 'CBJ', 'DAL', 'DET', 'EDM', 'FLA', 'LAK', 'MIN', 'MTL', 'NJD', 'NSH', 'NYI', 'NYR', 'OTT', 'PHI', 'PIT', 'SJS', 'STL', 'TBL', 'TOR', 'VAN', 'VGK', 'WPG', 'UTA'] 
 
 skater_column_headers = [
     'game_id',
@@ -57,9 +56,8 @@ goalie_column_headers = [
     'toi'
 ]
 
-
 def get_player_game_log_url(player_id: int, season_id: int, game_type_id: int):
-    return f"https://api-web.nhle.com/v1/player/{player_id}/game-log/{season_id}/{game_type_id}"
+    return f"{base_api}/player/{player_id}/game-log/{season_id}/{game_type_id}"
 
 def print_game_logs_to_csv(csvFileName: str, column_headers: list[str], game_logs: list[dict]):
     with open(csvFileName, mode='w', newline='') as file:
@@ -80,6 +78,7 @@ players_not_found = []
 game_logs_not_found = []
 
 
+# first loop to get all player IDs from rosters
 for tricode in team_codes: 
     roster_api_url = f"{base_api}/roster/{tricode}/20242025"
     roster_api_response = requests.get(roster_api_url)
@@ -100,7 +99,7 @@ for tricode in team_codes:
 
 # big boy loop for goalies
 for player_id in goalie_id_list:
-    player_api_url = f"https://api-web.nhle.com/v1/player/{player_id}/landing"
+    player_api_url = f"{base_api}/player/{player_id}/landing"
     player_api_response = requests.get(player_api_url)
     
     # If there is no response for that Player ID then it prints an error, and adds the playerId to a list, as well as skipping the rest of the iteration
@@ -111,18 +110,12 @@ for player_id in goalie_id_list:
     
     player_data = player_api_response.json()
     
-    # Optional: still check if it's a goalie (though your list is goalie_id_list)    
-    # Only include seasons where the league is NHL
     season_ids = [
-        season['season']  # or season['season'] if the key is 'season' – check actual JSON
+        season['season']
         for season in player_data.get('seasonTotals', [])
         if season.get('leagueAbbrev') == 'NHL'  # common key based on NHL API patterns
     ]
-    
-    # If the key is 'gameTypeId' == 2 (regular season) or something else, adjust accordingly
-    # But based on your description, it's likely 'leagueAbbrev' or similar for "NHL"
-    
-    # Then proceed with using season_ids, e.g., add to a master list or process further    
+        
     for season_id in season_ids:
         for game_type_id in game_type_ids:
             game_log_for_season_api_url = get_player_game_log_url(player_id, season_id, game_type_id)
@@ -157,11 +150,13 @@ for player_id in goalie_id_list:
                     ]
                     goalie_game_log_data.append(listing)
                     print(f"Added game log for goalie {player_id}, season {season_id}, game type {game_type_id}")
+
 print_game_logs_to_csv("goalie_game_logs.csv", goalie_column_headers, goalie_game_log_data)
 
 
+# big boy loop for skaters
 for player_id in skater_id_list:
-    player_api_url = f"https://api-web.nhle.com/v1/player/{player_id}/landing"
+    player_api_url = f"{base_api}/player/{player_id}/landing"
     player_api_response = requests.get(player_api_url)
     
     # If there is no response for that Player ID then it prints an error, and adds the playerId to a list, as well as skipping the rest of the iteration
@@ -172,18 +167,12 @@ for player_id in skater_id_list:
     
     player_data = player_api_response.json()
     
-    # Optional: still check if it's a goalie (though your list is goalie_id_list)    
-    # Only include seasons where the league is NHL
     season_ids = [
-        season['season']  # or season['season'] if the key is 'season' – check actual JSON
+        season['season']  
         for season in player_data.get('seasonTotals', [])
-        if season.get('leagueAbbrev') == 'NHL'  # common key based on NHL API patterns
+        if season.get('leagueAbbrev') == 'NHL' 
     ]
     
-    # If the key is 'gameTypeId' == 2 (regular season) or something else, adjust accordingly
-    # But based on your description, it's likely 'leagueAbbrev' or similar for "NHL"
-    
-    # Then proceed with using season_ids, e.g., add to a master list or process further    
     for season_id in season_ids:
         for game_type_id in game_type_ids:
             game_log_for_season_api_url = get_player_game_log_url(player_id, season_id, game_type_id)
