@@ -4,7 +4,6 @@ from datetime import datetime
 
 
 """"
-DATE: 12.26.2025
 PLAN: Access base NHL player API https://api-web.nhle.com/v1/player/{player_id}, access seasonTotals.season if exists. If that season exists fetch game logs for that season, and imput them into player_game_logs.csv, once done fetching data for that player then fetch re-run same process for another player
 """
 
