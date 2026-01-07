@@ -1,4 +1,5 @@
 import pandas as pd
+
 import requests
 import csv
 
@@ -91,3 +92,9 @@ df_gm_tenures = df_gm_tenures[['staff_id', 'nhl_id', 'start_date', 'end_date', '
 # Save both
 df_gm_bios.to_csv("gm_bios.csv", index=False)
 df_gm_tenures.to_csv("gm_tenures.csv", index=False, quoting=csv.QUOTE_MINIMAL)
+
+
+
+
+def get_gm_bios():
+    print("....fetching general manager bios from: ")
