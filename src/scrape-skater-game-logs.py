@@ -8,31 +8,13 @@ PLAN: Access base NHL player API https://api-web.nhle.com/v1/player/{player_id},
 """
 
 team_codes = ['ANA', 'ARI', 'BOS', 'BUF', 'CGY', 'CHI', 'COL', 'CBJ', 'DAL', 'DET', 'EDM', 'FLA', 'LAK', 'MIN', 'MTL', 'NJD', 'NSH', 'NYI', 'NYR', 'OTT', 'PHI', 'PIT', 'SJS', 'STL', 'TBL', 'TOR', 'VAN', 'VGK', 'WPG', 'UTA']
+
 roster_api_season = 20242025
 
 skater_column_headers = [
-    'game_id',
-    'team_tricode',       # original (teamAbbrev maps to this)
-    'date',               # original (gameDate maps to this)
-    'season',             # original
-    'home_road_flag',
-    'goals',
-    'assists',
-    'team_nickname',
-    'opponent_nickname',
-    'points',
-    'plus_minus',
-    'power_play_goals',
-    'power_play_points',
-    'game_winning_goals',
-    'ot_goals',
-    'shots',
-    'shifts',
-    'shorthanded_goals',
-    'shorthanded_points',
-    'opponent_tricode',
-    'pim',
-    'toi'
+    'game_id', 'team_tricode', 'season', 'home_road_flag', 'goals', 'assists', 'team_nickname',
+    'opponent_nickname','points','plus_minus','power_play_goals','power_play_points','game_winning_goals',
+    'ot_goals', 'shots', 'shifts', 'shorthanded_goals', 'shorthanded_points', 'opponent_tricode','pim', 'toi'
 ]
 
 goalie_column_headers = [

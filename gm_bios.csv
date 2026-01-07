@@ -1,0 +1,230 @@
+nhl_id,player_id,first_name,last_name,birthdate,date_of_death,birth_city,birth_country_code,birth_state_province_code,nationality_code,staff_id
+1,8448456,Art,Ross,1886-01-13,,Naughton,,ON,CAN,CCSTA2_1
+2,,Frederic,McLaughlin,1887-06-28,,Chicago,,IL,USA,CCSTA2_2
+3,8445962,Art,Duncan,1891-07-04,,Sault Ste. Marie,,ON,CAN,CCSTA2_3
+4,8446581,Eddie,Gerard,1890-02-22,,Ottawa,,ON,CAN,CCSTA2_4
+5,,Tommy,Gorman,1886-06-09,,Ottawa,,ON,CAN,CCSTA2_5
+6,8448095,Lester,Patrick,1883-12-30,,Drummondville,,QC,CAN,CCSTA2_6
+7,,Dave,Gill,1887-11-24,,Grenville,,QC,CAN,CCSTA2_7
+8,8445496,"Ogilvie ""Odie""",Cleghorn,1891-09-19,,Montreal,,QC,CAN,CCSTA2_8
+9,,Charles,Querrie,1877-07-25,,Markham,,ON,CAN,CCSTA2_9
+10,8444861,Jack,Adams,1895-06-14,,Fort William,,ON,CAN,CCSTA2_10
+11,,Conn,Smythe,1895-02-01,,Toronto,,ON,CAN,CCSTA2_11
+12,8447908,Dunc,Munro,1901-01-19,,Moray,,,CAN,CCSTA2_12
+13,8445514,Lionel,Conacher,1901-05-24,,Toronto,,ON,CAN,CCSTA2_13
+14,8446493,Frank,Fredrickson,1895-06-11,,Winnipeg,,MB,CAN,CCSTA2_14
+15,,Cooper,Smeaton,1890-07-22,,Carleton Place,,ON,CAN,CCSTA2_15
+16,8445497,"Sprague ""Peg""",Cleghorn,1890-03-11,,Montreal,,QC,CAN,CCSTA2_16
+17,,Leo,Dandurand,1889-07-09,,Bourbonnais,,IL,CAN,CCSTA2_17
+18,8449045,Joe,Simpson,1893-08-13,,Selkirk,,MB,CAN,CCSTA2_18
+19,8445874,Cy,Denneny,1891-12-23,,Farrow's Point,,ON,CAN,CCSTA2_19
+20,8445135,"Georges ""Buck""",Boucher,1896-08-19,,Ottawa,,ON,CAN,CCSTA2_20
+21,8447517,Clem,Loughlin,1894-11-15,,Carroll,,MB,CAN,CCSTA2_21
+22,,Ernest,Savard,1896-04-13,,Sainte-Marie,,QC,CAN,CCSTA2_22
+23,8445969,"Mervyn ""Red""",Dutton,1898-07-23,,Russell,,MB,CAN,CCSTA2_23
+24,,Bill,Tobin,1895-05-20,,Ottawa,,ON,CAN,CCSTA2_24
+25,,Cecil,Hart,1883-11-28,,Bedford,,QC,CAN,CCSTA2_25
+26,,Jules,Dugal,1888-11-24,,Saint-Jean,,QC,CAN,CCSTA2_26
+27,8445134,Frank,Boucher,1901-10-07,,Ottawa,,ON,CAN,CCSTA2_27
+28,,Frank,Selke Sr.,1893-05-07,,Berlin,,ON,CAN,CCSTA2_28
+29,8448096,Lynn,Patrick,1912-02-03,,Victoria,,BC,CAN,CCSTA2_29
+30,,Tommy,Ivan,1911-01-31,,Toronto,,ON,CAN,CCSTA2_30
+31,8445854,"Clarence ""Hap""",Day,1901-06-14,,Owen Sound,,ON,CAN,CCSTA2_31
+32,8448097,Muzz,Patrick,1915-06-28,,Victoria,,BC,CAN,CCSTA2_32
+33,,Stafford,Smythe,1921-03-15,,Toronto,,ON,CAN,CCSTA2_33
+34,,"George ""Punch""",Imlach,1918-03-15,,Toronto,,ON,CAN,CCSTA2_34
+35,8444857,Sid,Abel,1918-02-22,,Melville,,SK,CAN,CCSTA2_35
+36,,Sam,Pollock,1925-12-25,,Montreal,,QC,CAN,CCSTA2_36
+37,8449922,Emile,Francis,1926-09-13,,North Battleford,,SK,CAN,CCSTA2_37
+38,8446152,Hap,Emms,1905-01-12,,Barrie,,ON,CAN,CCSTA2_38
+39,8448931,Milt,Schmidt,1918-03-05,,Kitchener,,ON,CAN,CCSTA2_39
+40,8448057,Bert,Olmstead,1926-09-04,,Sceptre,,SK,CAN,CCSTA2_40
+41,8448299,Larry,Regan,1930-08-09,,North Bay,,ON,CAN,CCSTA2_41
+42,,Wren,Blair,1925-10-02,,Lindsay,,ON,CAN,CCSTA2_42
+43,8448167,"Norman ""Bud""",Poile,1924-02-10,,Fort William,,ON,CAN,CCSTA2_43
+44,,Jack,Riley,1919-06-14,,Toronto,,ON,CAN,CCSTA2_44
+45,,Frank,Selke Jr.,1929-09-07,,Toronto,,ON,CAN,CCSTA2_45
+46,,"William ""Scotty""",Bowman,1933-09-18,,Verdun,,QC,CAN,CCSTA2_46
+47,8444873,Keith,Allen,1923-08-21,,Saskatoon,,SK,CAN,CCSTA2_47
+48,,Jim,Gregory,1935-11-04,,Port Colborne,,ON,CAN,CCSTA2_48
+49,8446594,Fred,Glover,1928-01-05,,Toronto,,ON,CAN,CCSTA2_49
+50,,Ned,Harkness,1919-09-19,,Ottawa,,ON,CAN,CCSTA2_50
+51,8447149,"Leonard ""Red""",Kelly,1927-07-09,,Simcoe,,ON,CAN,CCSTA2_51
+52,,Garry,Young,1936-01-02,,Toronto,,ON,CAN,CCSTA2_52
+53,,Cliff,Fletcher,1935-08-16,,Montreal,,QC,CAN,CCSTA2_53
+54,,Harry,Sinden,1932-09-14,,Collins Bay,,ON,CAN,CCSTA2_54
+55,8447349,"Harold ""Hal""",Laycoe,1922-06-23,,Sutherland,,SK,CAN,CCSTA2_55
+56,,Jimmy,Skinner,1917-01-12,,Selkirk,,MB,CAN,CCSTA2_56
+57,,Jake,Milford,1914-07-29,,Charlottetown,,PE,CAN,CCSTA2_57
+58,,Jack,Button,1939-01-06,,Rushville,,NY,USA,CCSTA2_58
+59,,"Charles ""Chuck""",Catto,1934-10-12,,Montreal,,QC,CAN,CCSTA2_59
+60,8447595,Phil,Maloney,1927-10-06,,Ottawa,,ON,CAN,CCSTA2_60
+61,8447717,Bill,McCreary Sr.,1934-12-02,,Sundridge,,ON,CAN,CCSTA2_61
+62,8445865,Alex,Delvecchio,1932-12-04,,Fort William,,ON,CAN,CCSTA2_62
+63,8446615,Jack,Gordon,1928-03-03,,Winnipeg,,ON,CAN,CCSTA2_63
+64,,Denis,Ball,1926-06-24,,Winnipeg,,MB,CAN,CCSTA2_64
+65,8446142,Gerry,Ehman,1932-11-03,,Cudworth,,SK,CAN,CCSTA2_65
+66,8449805,"Aldege ""Baz""",Bastien,1919-08-29,,Timmins,,ON,CAN,CCSTA2_66
+67,8446812,John,Ferguson Sr.,1938-09-05,,Vancouver,,BC,CAN,CCSTA2_67
+68,8447810,Max,McNab,1924-06-21,,Watson,,SK,CAN,CCSTA2_68
+69,8446926,Harry,Howell,1932-12-28,,Hamilton,,ON,CAN,CCSTA2_69
+70,,Ray,Miron,1923-03-20,,Cornwall,,ON,CAN,CCSTA2_70
+71,8447500,Ted,Lindsay,1925-07-29,,Renfrew,,ON,CAN,CCSTA2_71
+72,8448227,Bob,Pulford,1936-03-31,,Newton Robinson,,ON,CAN,CCSTA2_72
+73,,George,Maguire,1921-09-09,,Ottawa,,ON,CAN,CCSTA2_73
+74,8447974,Lou,Nanne,1941-06-02,,Sault Ste. Marie,,ON,USA,CCSTA2_74
+75,,John,Andersen,1934-07-19,,Aalborg,,,CAN,CCSTA2_75
+76,,Irving,Grundman,1928-07-23,,Montreal,,QC,CAN,CCSTA2_76
+77,8449015,Fred,Shero,1925-10-23,,Winnipeg,,MB,CAN,CCSTA2_77
+78,,Larry,Gordon,1938-07-19,,Bancroft,,ON,CAN,CCSTA2_78
+79,,Jack,Kelley,1927-07-10,,Medford,,MA,USA,CCSTA2_79
+80,,Bill,Torrey,1934-06-23,,Montreal,,QC,CAN,CCSTA2_80
+81,,Maurice,Filion,1932-02-12,,Montreal,,QC,CAN,CCSTA2_81
+82,8450472,Larry,Pleau,1947-01-29,,Lynn,,MA,USA,CCSTA2_82
+83,8448093,Craig,Patrick,1946-05-20,,Detroit,,MI,USA,CCSTA2_83
+84,8450039,Gerry,McNamara,1934-09-22,,Sturgeon Falls,,ON,CAN,CCSTA2_84
+85,8449859,Roger,Crozier,1942-03-16,,Bracebridge,,ON,CAN,CCSTA2_85
+86,,Jim,Devellano,1943-01-18,,Toronto,,ON,CAN,CCSTA2_86
+87,,Harry,Neale,1937-03-09,,Sarnia,,ON,CAN,CCSTA2_87
+88,,David,Poile,1950-02-14,,Toronto,,ON,CAN,CCSTA2_88
+89,8452122,"Rogatien ""Rogie""",Vachon,1945-09-08,,Palmarolle,,QC,CAN,CCSTA2_89
+90,8451150,Serge,Savard,1946-01-22,,Montreal,,QC,CAN,CCSTA2_90
+91,8447577,Bill,MacMillan,1943-03-07,,Charlottetown,,PE,CAN,CCSTA2_91
+92,,Bob,McCammon,1941-04-14,,Kenora,,ON,CAN,CCSTA2_92
+93,8450005,Eddie,Johnston,1935-11-24,,Montreal,,QC,CAN,CCSTA2_93
+94,,Ron,Caron,1929-12-19,,Hull,,QC,CAN,CCSTA2_94
+95,8446098,Bobby,Clarke,1949-08-13,,Flin Flon,,MB,CAN,CCSTA2_95
+96,8447829,Gerry,Meehan,1946-09-03,,Toronto,,ON,CAN,CCSTA2_96
+97,8446722,Phil,Esposito,1942-02-20,,Sault Ste. Marie,,ON,CAN,CCSTA2_97
+98,,Lou,Lamoriello,1942-10-21,,Johnston,,RI,USA,CCSTA2_98
+99,,Gord,Stellick,1957-05-26,,Toronto,,ON,CAN,CCSTA2_99
+100,8448240,Pat,Quinn,1943-01-29,,Hamilton,,ON,CAN,CCSTA2_100
+101,,Jack,Ferreira,1944-06-09,,Providence,,RI,USA,CCSTA2_101
+102,8446720,Tony,Esposito,1943-04-23,,Sault Ste. Marie,,ON,CAN,CCSTA2_102
+103,,Martin,Madden Sr.,1943-06-05,,Quebec City,,QC,CAN,CCSTA2_103
+104,,Mike,Smith,1945-08-31,,Potsdam,,NY,USA,CCSTA2_104
+105,,Neil,Smith,1954-01-09,,Toronto,,ON,CAN,CCSTA2_105
+106,8449074,Floyd,Smith,1935-05-16,,Perth,,ON,CAN,CCSTA2_106
+107,,Mike,Keenan,1949-10-21,,Bowmanville,,ON,USA,CCSTA2_107
+108,,Bryan,Murray,1942-12-05,,Shawville,,QC,CAN,CCSTA2_108
+109,,Russ,Farwell,1956-04-20,,Peace River,,AB,CAN,CCSTA2_109
+110,,Pierre,Page,1948-04-30,,Saint-Hermas,,QC,CAN,CCSTA2_110
+111,8450845,Doug,Risebrough,1954-01-29,,Guelph,,ON,CAN,CCSTA2_111
+112,8445782,Brian,Burke,1955-06-30,,Providence,,RI,USA,CCSTA2_112
+113,8445456,Nick,Beverley,1947-04-21,,Toronto,,ON,CAN,CCSTA2_113
+114,8446998,Bob,Gainey,1953-12-13,,Peterborough,,ON,CAN,CCSTA2_114
+115,8449102,Don,Maloney,1958-09-05,,Lindsay,,ON,CAN,CCSTA2_115
+116,8445685,Mel,Bridgman,1955-04-28,,Trenton,,ON,CAN,CCSTA2_116
+117,,Chuck,Grillo,1939-07-24,,Hibbing,,MN,USA,CCSTA2_117
+118,,John,Muckler,1934-04-13,,Midland,,ON,CAN,CCSTA2_118
+119,8447934,Paul,Holmgren,1955-12-02,,St. Paul,,MN,USA,CCSTA2_119
+120,,Randy,Sexton,1959-07-24,,Brockville,,ON,CAN,CCSTA2_120
+121,8450090,John,Paddock,1954-06-09,,Brandon,,MB,CAN,CCSTA2_121
+122,8451076,Jim,Rutherford,1949-02-17,,Beeton,,ON,CAN,CCSTA2_122
+123,,Sam,McMaster,1936-04-15,,Vancouver,,BC,CAN,CCSTA2_123
+124,,Pierre,Lacroix,1948-08-03,,Montréal,,QC,CAN,CCSTA2_124
+125,,Al,Coates,1945-12-03,,Listowel,,ON,CAN,CCSTA2_125
+126,8447988,Rejean,Houle,1949-10-25,,Rouyn,,QC,CAN,CCSTA2_126
+127,8450804,Darcy,Regier,1956-11-27,,Swift Current,,SK,CAN,CCSTA2_127
+128,8449617,Mike,Milbury,1952-06-17,,Brighton,,MA,USA,CCSTA2_128
+129,,Pierre,Gauthier,1953-05-28,,Montreal,,QC,CAN,CCSTA2_129
+130,,Dean,Lombardi,1958-03-05,,Holyoke,,MA,USA,CCSTA2_130
+131,8451476,Bobby,Smith,1958-02-12,,North Sidney,,NS,CAN,CCSTA2_131
+132,8449769,Bob,Murray,1954-11-26,,Kingston,,ON,CAN,CCSTA2_132
+133,8447927,Ken,Holland,1955-11-10,,Vernon,,BC,CAN,CCSTA2_133
+134,8451866,Dave,Taylor,1955-12-04,,Levack,,ON,CAN,CCSTA2_134
+135,8446490,Ken,Dryden,1947-08-08,,Hamilton,,ON,CAN,CCSTA2_135
+136,8449513,George,McPhee,1958-07-02,,Guelph,,ON,CAN,CCSTA2_136
+137,8446498,Rick,Dudley,1949-01-31,,Toronto,,ON,CAN,CCSTA2_137
+138,,Jacques,Demers,1944-08-25,,Montreal,,QC,CAN,CCSTA2_138
+139,8452243,Don,Waddell,1958-08-19,,Detroit,,MI,USA,CCSTA2_139
+140,8447107,Marshall,Johnston,1941-06-06,,Birch Hills,,SK,CAN,CCSTA2_140
+141,8449941,Mike,O'Connell,1955-11-25,,Chicago,,IL,USA,CCSTA2_141
+142,,Craig,Button,1963-01-03,,Rochester,,NY,USA,CCSTA2_142
+143,,Doug,MacLean,1954-04-12,,Summerside,,PE,CAN,CCSTA2_143
+144,8448884,Kevin,Lowe,1959-04-15,,Lachute,,QC,CAN,CCSTA2_144
+145,8451144,Andre,Savard,1953-09-02,,Temiscamingue,,QC,CAN,CCSTA2_145
+146,8448788,Glen,Sather,1943-09-02,,High River,,AB,CAN,CCSTA2_146
+147,,Doug,Armstrong,1964-09-24,,Sarnia,,ON,CAN,CCSTA2_147
+148,,Chuck,Fletcher,1967-04-29,,Montreal,,QC,CAN,CCSTA2_148
+149,,Mike,Barnett,1948-10-09,,Olds,,AB,CAN,CCSTA2_149
+150,,Jay,Feaster,1962-07-30,,Harrisburg,,PA,USA,CCSTA2_150
+151,8451801,Darryl,Sutter,1958-08-19,,Viking,,AB,CAN,CCSTA2_151
+152,8452489,Doug,Wilson,1957-07-05,,Ottawa,,ON,CAN,CCSTA2_152
+153,8456238,John,Ferguson Jr.,1967-07-07,,Montreal,,QC,CAN,CCSTA2_153
+154,,Jeff,Gorton,1968-06-06,,Melrose,,MA,USA,CCSTA2_154
+155,8451853,Dale,Tallon,1950-10-19,,Noranda,,QC,CAN,CCSTA2_155
+156,,Dave,Nonis,1966-05-25,,Burnaby,,BC,CAN,CCSTA2_156
+157,,Peter,Chiarelli,1964-08-05,,Nepean,,ON,CAN,CCSTA2_157
+158,,Francois,Giguere,1963-06-24,,Sainte-Foy,,QC,CAN,CCSTA2_158
+159,,Jacques,Martin,1952-10-01,,Rockland,,ON,CAN,CCSTA2_159
+160,8458075,Garth,Snow,1969-07-28,,Wrentham,,MA,USA,CCSTA2_160
+161,8458010,Ray,Shero,1962-07-28,,St. Paul,,MN,USA,CCSTA2_161
+162,8448016,Scott,Howson,1960-04-09,,Toronto,,ON,CAN,CCSTA2_162
+164,8451857,Steve,Tambellini,1958-05-14,,Trail,,BC,CAN,CCSTA2_163
+165,8448689,Brian,Lawton,1965-06-29,,New Brunswick,,NJ,USA,CCSTA2_164
+166,8447191,Mike,Gillis,1958-12-01,,Sudbury,,ON,CAN,CCSTA2_165
+167,,Stan,Bowman,1973-06-28,,Montreal,,QC,CAN,CCSTA2_166
+168,,Greg,Sherman,1970-03-30,,Scranton,,PA,USA,CCSTA2_167
+169,8449893,Joe,Nieuwendyk,1966-09-10,,Oshawa,,ON,CAN,CCSTA2_168
+170,8452578,Steve,Yzerman,1965-05-09,,Cranbrook,,BC,CAN,CCSTA2_169
+171,8455856,Kevin,Cheveldayoff,1970-02-04,,Saskatoon,,SK,CAN,CCSTA2_170
+172,8448422,Jarmo,Kekäläinen,1966-07-03,,Tampere,,,FIN,CCSTA2_171
+173,8449020,Craig,MacTavish,1958-08-15,,London,,ON,CAN,CCSTA2_172
+174,8445428,Marc,Bergevin,1965-08-11,,Montreal,,QC,CAN,CCSTA2_173
+175,,Tim,Murray,1963-10-31,,Shawville,,QC,CAN,CCSTA2_174
+176,8449884,Jim,Nill,1958-04-11,,Hanna,,AB,CAN,CCSTA2_175
+177,8458858,Brad,Treliving,1969-08-18,,Penticton,,BC,CAN,CCSTA2_176
+178,8446951,Ron,Francis,1963-03-01,,Sault Ste. Marie,,ON,CAN,CCSTA2_177
+179,8451101,Joe,Sakic,1969-07-07,,Burnaby,,BC,CAN,CCSTA2_178
+180,8447775,Ron,Hextall,1964-05-03,,Brandon,,MB,CAN,CCSTA2_179
+181,8445416,Jim,Benning,1963-04-29,,Edmonton,,AB,CAN,CCSTA2_180
+182,8448980,Brian,MacLellan,1958-10-27,,Guelph,,ON,CAN,CCSTA2_181
+183,8451819,Don,Sweeney,1966-08-17,,St. Stephen,,NB,CAN,CCSTA2_182
+184,,John,Chayka,1989-06-09,,Jordan Station,,ON,CAN,CCSTA2_183
+185,8451028,Tom,Rowe,1956-05-23,,Lynn,,MA,USA,CCSTA2_184
+186,,Pierre,Dorion,1972-07-06,,Ottawa,,ON,CAN,CCSTA2_185
+187,8460510,Jason,Botterill,1976-05-19,,Edmonton,,AB,CAN,CCSTA2_186
+188,8445550,Rob,Blake,1969-12-10,,Simcoe,,ON,CAN,CCSTA2_187
+189,8456438,Keith,Gretzky,1967-02-16,,Brantford,,ON,CAN,CCSTA2_188
+190,8446797,Paul,Fenton,1959-12-22,,Springfield,,MA,USA,CCSTA2_189
+191,,Julien,BriseBois,1977-01-24,,Greenfield Park,,QC,CAN,CCSTA2_190
+192,,Kyle,Dubas,1985-11-29,,Sault Ste. Marie,,ON,CAN,CCSTA2_191
+193,8459446,Kevyn,Adams,1974-10-08,,Washington,,DC,USA,CCSTA2_192
+194,8444952,Lou,Angotti,1938-01-16,,Toronto,,ON,CAN,CCSTA2_193
+195,8455462,Bill,Armstrong,1970-05-18,,Richmond Hill,,ON,CAN,CCSTA2_194
+196,8446830,Tom,Fitzgerald,1968-08-28,,Billerica,,MA,USA,CCSTA2_195
+197,8456464,Bill,Guerin,1970-11-09,,Worcester,,MA,USA,CCSTA2_196
+198,8448091,Brett,Hull,1964-08-09,,Belleville,,ON,USA,CCSTA2_197
+199,,Les,Jackson,1952-12-21,,Manning,,AB,CAN,CCSTA2_198
+200,,Kelly,McCrimmon,1960-10-13,,Plenty,,SK,CAN,CCSTA2_199
+201,8447831,Howie,Meeker,1924-11-04,,Kitchener,,ON,CAN,CCSTA2_200
+202,,Rudy,Pilous,1914-08-11,,Winnipeg,,MB,CAN,CCSTA2_201
+203,8460719,Steve,Sullivan,1974-07-06,,Timmins,,ON,CAN,CCSTA2_202
+204,,Bill,Zito,1964-09-16,,Pittsburgh,,PA,USA,CCSTA2_203
+205,,Patrik,Allvin,1974-10-10,,Falun,,,SWE,CCSTA2_204
+206,,George,Kennedy,1881-12-19,,Montreal,,QC,CAN,CCSTA2_205
+207,,"Samuel Edward ""S.E.""",Lichtenhein,1870-10-24,,Chicago,,IL,USA,CCSTA2_206
+208,,Mike,Quinn,1874-03-27,,Quebec City,,QC,CAN,CCSTA2_207
+209,,Percy,Thompson,1878-11-16,,Wentworth County,,ON,CAN,CCSTA2_208
+210,8460562,Chris,Drury,1976-08-20,,Trumbull,,CT,USA,CCSTA2_209
+211,,Sid,Salomon III,1937-11-09,,St. Louis,,MO,USA,CCSTA2_210
+212,,John,Brophy,1933-01-20,,Antigonish,,NS,CAN,CCSTA2_211
+213,8445957,Dick,Duff,1936-02-18,,Kirkland Lake,,ON,CAN,CCSTA2_212
+214,,Kyle,Davidson,1988-07-01,,Sudbury,,ON,CAN,CCSTA2_213
+215,,Jeff,Solomon,1958-04-04,,Bronx,,NY,USA,CCSTA2_214
+216,8451566,Stan,Smyl,1958-01-28,,Glendon,,AB,CAN,CCSTA2_215
+217,,Kent,Hughes,1970-01-21,,Beaconsfield,,QC,CAN,CCSTA2_216
+218,8452216,Pat,Verbeek,1964-05-24,,Sarnia,,ON,CAN,CCSTA2_217
+219,,Joe,Will,1964-09-10,,Minneapolis,,MN,USA,CCSTA2_218
+220,8459640,Mike,Grier,1975-01-05,,Detroit,,MI,USA,CCSTA2_219
+221,,Chris,MacFarland,1970-03-28,,Bronx,,NY,USA,CCSTA2_220
+222,8464975,Daniel,Brière,1977-10-06,,Gatineau,,QC,CAN,CCSTA2_221
+223,8455919,Craig,Conroy,1971-09-04,,Potsdam,,NY,USA,CCSTA2_222
+224,8458258,Barry,Trotz,1962-07-15,,Winnipeg,,MB,CAN,CCSTA2_223
+225,8458541,Steve,Staios,1973-07-28,,Hamilton,,ON,CAN,CCSTA2_224
+226,8446323,John,Davidson,1953-02-27,,Ottawa,,ON,CAN,CCSTA2_225
+227,,Eric,Tulsky,1975-06-25,,Port Huron,,MI,USA,CCSTA2_226
+228,8448204,Jeff,Jackson,1965-04-24,,Chatham,,ON,CAN,CCSTA2_227
+229,8460685,Chris,Patrick,1976-01-02,,Leesburg,,VA,USA,CCSTA2_228
+230,8468463,Mathieu,Darche,1976-11-26,,Montréal,,QC,CAN,CCSTA2_229
